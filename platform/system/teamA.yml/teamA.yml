@@ -32,4 +32,5 @@ spec:
   sourceRepos:
   - https://github.com/kostis-codefresh/intro-argocd-rbac.git
   - git@github.com:AstronutDev/nonprod-k8s-manifest.git
+  - git@github.com:AstronutDev/nonprod-k8s-config.git
   
