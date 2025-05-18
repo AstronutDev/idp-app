@@ -9,4 +9,4 @@ metadata:
 data:
   policy.csv: |
     g, nutx,teamA
-    p, teamA, applications, get, pg, allow
+    p, teamA, applications, get, default/pg/*, allow
