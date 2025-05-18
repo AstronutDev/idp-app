@@ -9,3 +9,4 @@ metadata:
 data:
   policy.csv: |
     g, nutx, proj:default:read-write
+    p, nutx, applications, get, pg, allow
