@@ -31,6 +31,6 @@ spec:
     - p, proj:team-a:read-write, applications, delete, team-a/*, deny
   sourceRepos:
   - https://github.com/kostis-codefresh/intro-argocd-rbac.git
-  - git@github.com:AstronutDev/nonprod-k8s-manifest.git
-  - git@github.com:AstronutDev/nonprod-k8s-config.git
+  - https://github.com/AstronutDev/nonprod-k8s-manifest.git
+  - https://github.com/AstronutDev/nonprod-k8s-config.git
   
