@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: operator
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io  
+spec:
+  description: Operator
+  destinations:
+  - name: 'operator'
+    namespace: 'pg'
+    server: https://kubernetes.default.svc     
+  sourceRepos:
+  - https://github.com/kostis-codefresh/intro-argocd-rbac.git
+  
