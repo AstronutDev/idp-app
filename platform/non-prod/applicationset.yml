@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: 'https://github.com/AstronutDev/nonprod-k8s-manifest.git.git'
+        repoURL: 'https://github.com/AstronutDev/nonprod-k8s-manifest.git'
         targetRevision: HEAD
         path: '{{cluster}}/pedjeab/cart'
       destination:
