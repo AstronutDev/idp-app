@@ -14,7 +14,7 @@ spec:
     metadata:
       name: '{{cluster}}-app'
     spec:
-      project: team-a
+      project: default
       source:
         repoURL: 'https://github.com/AstronutDev/nonprod-k8s-manifest.git'
         targetRevision: HEAD
