@@ -4,7 +4,7 @@ metadata:
   name: cart-config
   namespace: argocd
 spec:
-  project: default
+  project: team-a
   source:
     repoURL: git@github.com:AstronutDev/nonprod-k8s-config.git
     targetRevision: HEAD
