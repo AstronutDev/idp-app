@@ -17,8 +17,8 @@ data:
     g, nongped, proj:team-b:read-write
     g, nongped, proj:team-a:read-only
 
-    p, pukjee, application, *, */*, allow
-    p, pukjee, project, *, */*, allow
+    p, pukjee, applications, *, */*, allow
+    p, pukjee, projects, *, */*, allow
 
 
   # nongkai teamA, kai123456
