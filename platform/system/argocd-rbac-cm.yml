@@ -8,5 +8,5 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   policy.csv: |
-    g, nutx, role:teamA
-    p, role:teamA, applications, get, default/pg/*, allow
+    g, nutx, proj:default:read-write
+    p, proj:default:read-write, applications, get, default/pg/*, allow
