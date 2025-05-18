@@ -33,4 +33,4 @@ spec:
   - https://github.com/kostis-codefresh/intro-argocd-rbac.git
   - https://github.com/AstronutDev/nonprod-k8s-manifest.git
   - https://github.com/AstronutDev/nonprod-k8s-config.git
-  
+  - git@github.com:AstronutDev/nonprod-k8s-config.git 
