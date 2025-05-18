@@ -8,4 +8,4 @@ metadata:
     app.kubernetes.io/part-of: argocd
 data:
   policy.csv: |
-    g, nutx, proj: default:read-write
+    g, nutx, proj:default:read-write
