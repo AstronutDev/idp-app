@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cart-config
+  name: payment-config
   namespace: argocd
 spec:
   project: team-b
