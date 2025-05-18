@@ -6,7 +6,7 @@ spec:
   generators:
     - list:
         elements:
-          - cluster: cart-dev
+          - cluster: dev
             url: 'https://kubernetes.default.svc'
           - cluster: sut
             url: 'https://kubernetes.default.svc'
