@@ -10,3 +10,17 @@ data:
   policy.csv: |
     g, nutx, proj:default:read-write
     p, proj:default:read-write, applications, get, *, allow
+
+    g, nongkai, proj:team-a:read-write
+    g, nongkai, proj:operator:read-only
+
+    g, nongped, proj:team-b:read-write
+    g, nongped, proj:team-a:read-only
+
+    p, pukjee, application, *, */*, allow
+    p, pukjee, project, *, */*, allow
+
+
+  # nongkai teamA
+  # nongped teamB
+  # pukjee infra

@@ -25,6 +25,7 @@ spec:
     - p, proj:team-b:read-write, applications, get, team-b/*, allow
     - p, proj:team-b:read-write, applications, sync, team-b/*, allow
     - p, proj:team-b:read-write, applications, update, team-b/*, allow        
+    - p, proj:team-b:read-write, applications, delete, team-a/*, deny
   sourceRepos:
   - https://github.com/kostis-codefresh/intro-argocd-rbac.git
   
